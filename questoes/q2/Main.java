@@ -8,9 +8,9 @@ public class Main{
 		Lampada lampada1 = new Lampada();
 		Lampada lampada2 = new Lampada();
 		
-		lampada1.liga();
+		lampada1.getLiga();
 		System.out.println("lampada 1 "+lampada1.observa());
-		lampada2.desliga();
+		lampada2.getDesliga();
 		System.out.println("lampada 2 "+lampada2.observa());
 }
 }

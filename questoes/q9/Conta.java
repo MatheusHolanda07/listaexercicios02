@@ -4,18 +4,27 @@ public class Conta {
 	int numero;
 	String titular;
 	String agencia = "caixa";
-	double saldo;
+	double saldo = 5;
 	
-	void saca(double quantidade){
+	public double getSaca(){
+		return saldo;
+	}
+	public void saca(double quantidade){
 		double novoSaldo = (this.saldo - quantidade);
 		this.saldo = novoSaldo;
 	}
 	
-	void deposita(double quantidade){
+	public double getDeposita(){
+		return saldo;
+	}
+	public void deposita(double quantidade){
 		this.saldo +=quantidade;
 	}
 	
-	double calculaRendimento(){
+	public double getRendimento(){
+		return saldo;
+	}
+	public double calculaRendimento(){
 			double novoSaldo=(saldo*0.1);
 			return saldo += novoSaldo;
 	}

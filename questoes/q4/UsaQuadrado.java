@@ -1,15 +1,15 @@
 package q4;
 
+
 public class UsaQuadrado{ 
 public static void main(String[]args){
 	
-	Quadrado q1,q2,q3;
-	q1=new Quadrado(2);
-	q2=new Quadrado(4);
-	q3=new Quadrado(5);
+	Quadrado quadra1 = new Quadrado();
+	Quadrado quadra2 = new Quadrado();
+	Quadrado quadra3 = new Quadrado();
 	
-	System.out.println(q1.area()+" "+q1.perimetro());
-	System.out.println(q2.area()+" "+q2.perimetro());
-	System.out.println(q3.area()+" "+q3.perimetro());
+	System.out.println(quadra1.getArea()+" "+quadra1.getPerimetro());
+	System.out.println(quadra2.getArea()+" "+quadra2.getPerimetro());
+	System.out.println(quadra3.getArea()+" "+quadra3.getPerimetro());
 }
 }

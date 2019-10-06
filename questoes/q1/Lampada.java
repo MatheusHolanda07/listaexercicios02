@@ -1,18 +1,31 @@
 package q1;
 
 public class Lampada{
-	private boolean ligada;
-	public void liga(){
-	ligada = true;
+	 boolean ligada;
+	 boolean desligada;
+	
+	public boolean getLiga(){
+		return ligada;
 	}
-	public void desliga(){
-	ligada = false;
+	public void liga(boolean ligada){
+	this.ligada = true;
 	}
+	
+	
+	public boolean getDesliga(){
+		return desligada;
+	}
+	public void desliga(boolean desligada){
+	this.desligada = true;
+	}
+	
+	
 	public String observa(){
-	if(ligada){
+	if(ligada == true && desligada == false){
 	return "ligada";
-}else{
+		}else{
 	return "desligada";
 	}
 }
+	
 }

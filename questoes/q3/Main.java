@@ -5,8 +5,8 @@ public class Main {
 		
 		Quadrado quadra = new Quadrado();
 		
-		System.out.println("sua area: "+quadra.area());
-		System.out.println("seu perimetro: "+quadra.perimetro());
+		System.out.println("sua area: "+quadra.getArea());
+		System.out.println("seu perimetro: "+quadra.getPerimetro());
 	}
 
 }

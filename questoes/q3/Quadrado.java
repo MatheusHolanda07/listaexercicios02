@@ -1,17 +1,30 @@
 package q3;
 
 public class Quadrado {
-	double lado = 2;
-	void Quadrado(double lado){
-		lado = lado;
+	double lado ;
+	
+	public double getQuadrado(){
+		return lado;
+	}
+	
+	public void Quadrado(double lado){
+		this.lado = lado;
 	}
 	
 	
-	double area(){
+	public double getArea(){
+		return lado;
+	}
+	public double area(){
 		return (lado*lado);
 	}
 	
-	double perimetro(){
+	
+	
+	public double getPerimetro(){
+		return lado;
+	}
+	public double perimetro(){
 		return (4*lado);
 	}
 }

@@ -5,22 +5,30 @@ public class Estoque {
 	int qtdAtual;
 	int qtdMinima;
 	
-	public Estoque(){
-		
-	}
+	public Estoque(){}
+	public Estoque(String nome, int qtdAtual, int qtdMinima){}
 	
-	public Estoque(String nome, int qtdAtual, int qtdMinima){
-		
-	}
 	
-	 void mudarNome(String nome){
-		
-	}
+	public String getNome(){
+        return nome;}
+	public void mudarNome(String nome){
+		this.nome = nome;}
 	 
-	 void mudarQtdMinima(int qtdMinima){
-		
-	}
+	
+	public int getMin(){
+        return qtdMinima;}
+	public void mudarQtdMinima(int qtdMinima){
+		this.qtdMinima = qtdMinima;}
 	 
+	
+	public int getAtual(){
+	       return qtdAtual ;}
+	    
+	    public void atual(int qtdAtual){
+	        this.qtdAtual = qtdAtual;
+	    }
+	    
+	    
 	 void repor(int qtd){
 		 qtdAtual += qtd;
 	}
